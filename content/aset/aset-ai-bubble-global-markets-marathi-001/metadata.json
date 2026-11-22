@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_id": "aset-ai-bubble-global-markets-marathi-001",
+  "brand_id": "aset",
+  "brand_name": "ASET",
+  "language": "mr",
+  "format": "short_vertical_video",
+  "title": "जागतिक बाजारात 11.6% घसरण! एआय बबल फुटलं का?",
+  "topic": "Global equity correction and AI infrastructure financing risk",
+  "status": "draft",
+  "visibility": "public_asset_repository",
+  "duration_seconds": 72.04,
+  "resolution": "720x1280",
+  "fps": 24,
+  "audio": "original ambient pulse soundtrack",
+  "voiceover_included": false,
+  "social_published": false,
+  "publishing_mode": "never",
+  "data_cutoff": "2026-11-20 US close; Reuters update 2026-11-22",
+  "video_binary_in_repo": false,
+  "video_sha256": "b1230beb7347cb37412d69e36d3c5d5f1a035cbba35ab2536edec6cef5b2794d",
+  "video_bytes": 2413930
+}
