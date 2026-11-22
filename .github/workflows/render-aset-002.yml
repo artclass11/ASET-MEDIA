@@ -1,0 +1,54 @@
+name: Render ASET 002 Marathi Documentary
+on:
+  push:
+    paths:
+      - "content/aset/global-ai-boom-correction-marathi-002/**"
+      - ".github/workflows/render-aset-002.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: aset-002-render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install rendering dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-core
+          python -m pip install --upgrade pip
+          pip install pillow gTTS
+      - name: Render narration and video
+        working-directory: content/aset/global-ai-boom-correction-marathi-002
+        run: python render.py
+      - name: Verify deliverables
+        working-directory: content/aset/global-ai-boom-correction-marathi-002/render
+        run: |
+          test -s ASET_Global_AI_Boom_Market_Correction_Marathi_002.mp4
+          test -s ASET_Global_AI_Boom_Market_Correction_Marathi_002_thumbnail.jpg
+          test -s captions_mr.srt
+          cat render_report.json
+      - name: Upload render artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: aset-002-marathi-documentary
+          path: content/aset/global-ai-boom-correction-marathi-002/render/
+          retention-days: 30
+      - name: Publish immutable GitHub release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="aset-002-run-${{ github.run_number }}"
+          gh release create "$TAG" \
+            content/aset/global-ai-boom-correction-marathi-002/render/ASET_Global_AI_Boom_Market_Correction_Marathi_002.mp4 \
+            content/aset/global-ai-boom-correction-marathi-002/render/ASET_Global_AI_Boom_Market_Correction_Marathi_002_thumbnail.jpg \
+            content/aset/global-ai-boom-correction-marathi-002/render/captions_mr.srt \
+            content/aset/global-ai-boom-correction-marathi-002/render/render_report.json \
+            --repo "${{ github.repository }}" \
+            --title "ASET 002 — AI Boom & Global Market Correction (Marathi)" \
+            --notes "Automated render from the reviewed source package. Educational content; not investment advice."
