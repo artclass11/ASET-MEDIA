@@ -29,7 +29,7 @@ Make distinctive, trustworthy, highly watchable Marathi-first YouTube documentar
 
 ## Self-healing rules
 - Classify failures: dependency/network, source/data, script/Marathi text, TTS/audio, rendering, media validation, editorial/creative, publishing.
-- Retry transient network/TTS/dependency failures with bounded exponential backoff (up to 3 attempts); never loop indefinitely.
+- Retry transient network/TTS/dependency failures with a bounded retry (up to 2 total render attempts in the current workflow); never loop indefinitely.
 - For deterministic failures, capture the exact failing command, traceback, tool versions and artifact inventory; patch the root cause before retrying.
 - Preserve the failed render and logs as diagnostics. Never overwrite the last known-good published asset.
 - On missing/invalid media, stop publishing; retain the failed job report and retry only after correction.
