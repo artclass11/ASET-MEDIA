@@ -33,7 +33,7 @@ if thumb.exists() and thumb.stat().st_size:
         if im.size!=(1920,1080): errors.append("Thumbnail must be 1920x1080")
 if srt.exists() and srt.stat().st_size:
     txt=srt.read_text(encoding="utf-8")
-    blocks=[b for b in re.split(r"\\n\\s*\\n",txt.strip()) if b.strip()]
+    blocks=[b for b in txt.strip().split("\n\n") if b.strip()]
     checks["subtitle_blocks"]=len(blocks)
     if len(blocks)<10: errors.append("Too few subtitle blocks")
     if "-->" not in txt: errors.append("Subtitle timestamps missing")
