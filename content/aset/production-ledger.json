@@ -111,5 +111,26 @@
     "archive_commit_sha": "1b7887459f3b10f5d7970f9e8dd42451c44a65b4",
     "archive_commit_url": "https://github.com/artclass11/ASET-MEDIA/commit/1b7887459f3b10f5d7970f9e8dd42451c44a65b4",
     "archive_path": "content/aset/2026-11-23-crude-oil-hormuz-india-risk/"
+  },
+  "previous_episode_evidence": {
+    "id": "ASET-002",
+    "workflow_run_id": 45097889200,
+    "workflow_run_url": "https://github.com/artclass11/ASET-MEDIA/actions/runs/45097889200",
+    "release_url": "https://github.com/artclass11/ASET-MEDIA/releases/tag/aset-002-run-10",
+    "mp4_sha256": "1d7f000ac4935d67c6a64b0b010818ceda9e5a1041e85d01977e58589e5052e9",
+    "mp4_bytes": 12066865,
+    "duration_seconds": 706.36,
+    "resolution": "1920x1080",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "narration": "Google gTTS Marathi (unofficial free endpoint), gently time-compressed",
+    "technical_gate": "PASS_NARROW",
+    "subtitle_blocks": 26,
+    "ffmpeg_encoder_duplicate_frames": 19270,
+    "ffmpeg_duplicate_warning": "More than 10000 frames duplicated",
+    "full_file_decode": "NOT_RUN",
+    "audio_mix_and_transcript_qa": "NOT_RUN",
+    "creative_gate": "HOLD",
+    "release_reason": "Duration exceeds 600-second target; basic chapter-card treatment; duplicate-frame warning; unofficial gTTS endpoint and voice rights not verified; no independent visual/audio review or exact-hash machine approval."
   }
 }

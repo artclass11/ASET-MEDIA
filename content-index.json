@@ -26,9 +26,16 @@
       "formats": [
         "youtube_long_form_16_9"
       ],
-      "status": "HOLD_UNVERIFIED_CREATIVE_RENDER",
+      "status": "HOLD_TECHNICAL_ONLY_PASS_CREATIVE_RELEASE_BLOCKED",
       "archive_path": "content/aset/global-ai-boom-correction-marathi-002/",
-      "duplicate_note": "Adjacent to ASET-001; do not repeat the AI-bubble/correction narrative in the next 30 days."
+      "duplicate_note": "This 11:46 chapter-card render is not the target cinematic format; do not republish as a new episode.",
+      "duration_seconds": 706.36,
+      "release_url": "https://github.com/artclass11/ASET-MEDIA/releases/tag/aset-002-run-10",
+      "mp4_sha256": "1d7f000ac4935d67c6a64b0b010818ceda9e5a1041e85d01977e58589e5052e9",
+      "technical_gate": "PASS_NARROW",
+      "creative_gate": "HOLD",
+      "duplicate_frame_warning_count": 19270,
+      "voice_engine": "Google gTTS Marathi (unofficial public endpoint)"
     },
     {
       "id": "ASET-2026-11-23-001",
