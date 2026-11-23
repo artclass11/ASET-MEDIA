@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "run_id": "ASET-2026-11-23-CRUDE-HORMUZ-001",
+  "checked_at": "2026-11-23T08:24:29+05:30",
+  "overall_status": "HOLD",
+  "overall_score": null,
+  "dimension_scores": null,
+  "technical_checks": {
+    "status": "NOT_RUN_NO_MEDIA",
+    "ffprobe": null,
+    "ffmpeg_full_decode": null,
+    "resolution": null,
+    "duration": null,
+    "audio_track": null,
+    "loudness_true_peak": null,
+    "sync": null,
+    "black_frozen_corrupt_frames": null,
+    "srt_validation": null,
+    "devanagari_rendering": null,
+    "sha256": null
+  },
+  "factual_rights_checks": {
+    "research_source_review": "PASS_WITH_LIMITATIONS",
+    "source_links": "Recorded; final link revalidation required before publication",
+    "claim_ledger": "Present",
+    "rights_manifest": "Draft only; no final assets to clear",
+    "narration_rights": "HOLD",
+    "music_rights": "No music used; no licence acquired",
+    "visual_rights": "No external visual assets acquired; planned original graphics not rendered",
+    "ai_disclosure": "Pending actual final media"
+  },
+  "independent_creative_review": {
+    "status": "HOLD",
+    "reason": "No final cut exists and DOCS policy requires complete picture-and-sound review by a fluent Marathi reviewer and creative reviewer. No independent automated vision/audio reviewer was verified in this run.",
+    "minimum_gate": ">=85/100 overall and >=80/100 in every required dimension, plus no critical defect"
+  },
+  "blockers": [
+    {
+      "class": "INFRA",
+      "detail": "Self-hosted DOCS docs-production runner is UNVERIFIED; latest DOCS report dated 22 Nov records failure before job allocation."
+    },
+    {
+      "class": "MISSING_ASSET",
+      "detail": "No licensed natural Marathi narration, rendered moving scenes, final audio, SRT, thumbnail or MP4."
+    },
+    {
+      "class": "RIGHTS",
+      "detail": "Bol TTS Marathi exact voicepack/dataset rights and intended commercial/platform use are not yet approved; no human audition recorded."
+    },
+    {
+      "class": "QUALITY",
+      "detail": "No final cut to assess story pacing, motion coverage, Devanagari shaping, audio mix or accessibility."
+    }
+  ],
+  "publication": {
+    "buffer_create": "NOT_ATTEMPTED",
+    "post_id": null,
+    "status": null,
+    "permalink": null,
+    "reason": "The exact Aset channel is connected and unlocked, but no validated final MP4 with a stable direct public download URL exists."
+  }
+}

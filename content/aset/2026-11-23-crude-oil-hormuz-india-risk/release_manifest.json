@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "run_id": "ASET-2026-11-23-CRUDE-HORMUZ-001",
+  "status": "HOLD",
+  "created_at": "2026-11-23T08:24:29+05:30",
+  "timezone": "Asia/Kolkata",
+  "destination": {
+    "platform": "YouTube",
+    "organization": "My organization",
+    "organization_id": "6aea10af273e0b47e1d3aaf1",
+    "channel_name": "Aset",
+    "channel_id": "6af01ffc62b70b94b0baef5e"
+  },
+  "outputs": {
+    "short": {
+      "script": "script_mr_short.md",
+      "target_resolution": "1080x1920",
+      "target_duration_seconds": "45-90",
+      "mp4": null,
+      "thumbnail": null,
+      "srt": null,
+      "sha256": null
+    },
+    "long": {
+      "script": "script_mr_long.md",
+      "target_resolution": "1920x1080",
+      "target_duration_seconds": "360-600",
+      "mp4": null,
+      "thumbnail": null,
+      "srt": null,
+      "sha256": null
+    }
+  },
+  "provenance": {
+    "visuals": "No visuals created. Planned original Blender procedural scenes and data graphics only.",
+    "footage": "None acquired.",
+    "voice": "No narration generated. DOCS Bol TTS Marathi candidate not run; voicepack/dataset commercial rights and human audition not verified.",
+    "music": "None acquired or used.",
+    "fonts": "No font embedded or rendered; exact Devanagari font licence must be verified before build.",
+    "sources": "URLs and access/publication dates recorded in research_sources.md."
+  },
+  "gates": {
+    "research": "PASS_WITH_LIMITATIONS",
+    "script": "PASS_DRAFT",
+    "assets": "BLOCKED",
+    "render": "BLOCKED",
+    "technical_qa": "NOT_RUN_NO_MEDIA",
+    "factual_rights_qa": "PARTIAL_HOLD",
+    "independent_creative_qa": "NOT_AVAILABLE",
+    "exact_hash_approval": "NOT_AVAILABLE",
+    "buffer_create": "NOT_ATTEMPTED"
+  },
+  "ai_disclosure": "Set from actual final assets only; disclose synthetic narration and realistic generated scenes if used.",
+  "release_decision": "HOLD — no final MP4, thumbnail, SRT, SHA-256 or stable public direct-download URL."
+}

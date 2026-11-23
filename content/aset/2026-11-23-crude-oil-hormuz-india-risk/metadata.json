@@ -1,0 +1,52 @@
+{
+  "title": "तेल स्वस्त होतंय, पण भारताचा पुरवठा-धोका का संपत नाही? | Hormuz Explained",
+  "short_title": "तेल स्वस्त, पण भारताचा धोका कायम?",
+  "description_file": "youtube_description.md",
+  "language": "mr",
+  "categoryId": "27",
+  "privacyStatus": "public",
+  "madeForKids": false,
+  "notifySubscribers": true,
+  "embeddable": true,
+  "tags": [
+    "India oil imports",
+    "Strait of Hormuz",
+    "Crude oil",
+    "Global markets",
+    "Marathi finance",
+    "Oil prices",
+    "Energy security",
+    "Market literacy"
+  ],
+  "formats": {
+    "short": {
+      "aspect_ratio": "9:16",
+      "target_resolution": "1080x1920",
+      "target_duration_seconds": [
+        45,
+        90
+      ],
+      "status": "SCRIPTED_HOLD"
+    },
+    "long": {
+      "aspect_ratio": "16:9",
+      "target_resolution": "1920x1080",
+      "target_duration_seconds": [
+        360,
+        600
+      ],
+      "status": "SCRIPTED_HOLD"
+    }
+  },
+  "ai_disclosure": {
+    "status": "UNDETERMINED_UNTIL_FINAL_MEDIA",
+    "note": "If synthetic Marathi narration or realistic synthetic scenes are used in the final master, apply the truthful YouTube altered/synthetic-content disclosure and say so in the description. No final media exists in this package."
+  },
+  "publish_status": "HOLD",
+  "publish_target": {
+    "organization_id": "6aea10af273e0b47e1d3aaf1",
+    "channel_name": "Aset",
+    "channel_id": "6af01ffc62b70b94b0baef5e",
+    "service": "youtube"
+  }
+}

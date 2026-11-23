@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-23T08:24:29+05:30",
+  "timezone": "Asia/Kolkata",
+  "repository": "artclass11/ASET-MEDIA",
+  "branch": "main",
+  "entries": [
+    {
+      "id": "ASET-001",
+      "date": null,
+      "slug": "aset-ai-bubble-global-markets-marathi-001",
+      "topic": "AI investment boom and global market literacy",
+      "formats": [
+        "youtube_short_9_16"
+      ],
+      "duration_seconds": 72.04,
+      "status": "REVIEW_DRAFT_NOT_PUBLISHED",
+      "archive_path": "content/aset/aset-ai-bubble-global-markets-marathi-001/",
+      "duplicate_note": "Earlier AI-market theme; avoid repeating its core angle inside the 30-day window."
+    },
+    {
+      "id": "ASET-002",
+      "date": "2026-11-22",
+      "slug": "global-ai-boom-correction-marathi-002",
+      "topic": "Global AI investment boom and market correction",
+      "formats": [
+        "youtube_long_form_16_9"
+      ],
+      "status": "HOLD_UNVERIFIED_CREATIVE_RENDER",
+      "archive_path": "content/aset/global-ai-boom-correction-marathi-002/",
+      "duplicate_note": "Adjacent to ASET-001; do not repeat the AI-bubble/correction narrative in the next 30 days."
+    },
+    {
+      "id": "ASET-2026-11-23-001",
+      "date": "2026-11-23",
+      "slug": "crude-oil-hormuz-india-import-risk",
+      "topic": "Why falling crude prices do not remove India's Strait of Hormuz supply risk",
+      "formats": [
+        "youtube_short_9_16",
+        "youtube_long_form_16_9"
+      ],
+      "status": "PREPRODUCTION_ONLY_HOLD",
+      "archive_path": "content/aset/2026-11-23-crude-oil-hormuz-india-risk/",
+      "topic_fingerprint": "crude-price-vs-shipping-risk|strait-of-hormuz|india-import-dependence",
+      "duplicate_note": "Distinct from the previous AI valuation/correction stories and from visible recent Aset Buffer titles; media-level duplicate checking remains limited where old posts have empty captions."
+    }
+  ],
+  "duplicate_review": {
+    "buffer_window_start": "2026-10-24T00:00:00+05:30",
+    "buffer_window_end": "2026-11-23T08:24:29+05:30",
+    "exact_channel_id": "6af01ffc62b70b94b0baef5e",
+    "posts_reviewed": 10,
+    "statuses": {
+      "sent": 10,
+      "scheduled": 0,
+      "sending": 0,
+      "error": 0
+    },
+    "visible_titles": [
+      "copilot fusion",
+      "brandstudio professional",
+      "architecture design",
+      "brandstudio professional",
+      "ainvoice promo hindi",
+      "buy smartphone gadgets in nashik"
+    ],
+    "limitations": "Four additional older Aset posts in the window are gold-promotion videos. Some sent posts have empty text and no accessible original media transcript in the Buffer listing, so full media-level semantic deduplication cannot be claimed."
+  }
+}
