@@ -12,6 +12,7 @@
 - PPAC, September 2026 Oil & Gas Snapshot archive — https://ppac.gov.in/archives/reports
 - Rajya Sabha crude-import-dependence reply, 27 Jul 2026 (reported by ThePrint) — https://theprint.in/economy/indias-crude-import-dependence-rises-to-record-88-7-as-domestic-output-continues-to-decline/2998114/
 - OPEC, 7 Jun 2026 — https://www.opec.org/pr-detail/605-7-june-2026.html
+- PPAC installed refinery capacity — https://ppac.gov.in/infrastructure/installed-refinery-capacity
 - PPAC petrol/diesel price build-up — https://ppac.gov.in/retail-selling-price-rsp-of-petrol-diesel-and-domestic-lpg/price-build-up-of-petrol-and-diesel
 
 हा व्हिडिओ आर्थिक साक्षरतेसाठी आहे; वैयक्तिक गुंतवणूक, ट्रेडिंग किंवा किंमत-भविष्यवाणीचा सल्ला नाही.
