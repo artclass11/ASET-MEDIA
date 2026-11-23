@@ -107,6 +107,9 @@
       "stable_public_download_url": null
     },
     "buffer_post_id": null,
-    "provider_status": "NOT_ATTEMPTED"
+    "provider_status": "NOT_ATTEMPTED",
+    "archive_commit_sha": "1b7887459f3b10f5d7970f9e8dd42451c44a65b4",
+    "archive_commit_url": "https://github.com/artclass11/ASET-MEDIA/commit/1b7887459f3b10f5d7970f9e8dd42451c44a65b4",
+    "archive_path": "content/aset/2026-11-23-crude-oil-hormuz-india-risk/"
   }
 }
