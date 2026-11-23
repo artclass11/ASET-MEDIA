@@ -41,7 +41,7 @@
         "stage": "RENDER",
         "status": "BLOCKED",
         "classification": "INFRA",
-        "evidence": "The DOCS production report dated 22 November records the self-hosted docs-production runner as UNVERIFIED; runner allocation failed before any job steps, and no owner-host access is available here. No verified Blender, FFmpeg, ffprobe, model cache or local storage check was possible. No render was attempted."
+        "evidence": "The DOCS production runner remains unverified. Latest Marathi workflow run 45024410098 (22 Nov 12:51:06Z) failed with zero jobs; latest package-quality run 45024411315 failed with no step list. No 23 Nov run or owner-host connection is available. No verified Blender, FFmpeg, ffprobe, model cache or local storage check was possible. No render was attempted."
       },
       {
         "stage": "TECH_QA",
@@ -110,7 +110,27 @@
     "provider_status": "NOT_ATTEMPTED",
     "archive_commit_sha": "1b7887459f3b10f5d7970f9e8dd42451c44a65b4",
     "archive_commit_url": "https://github.com/artclass11/ASET-MEDIA/commit/1b7887459f3b10f5d7970f9e8dd42451c44a65b4",
-    "archive_path": "content/aset/2026-11-23-crude-oil-hormuz-india-risk/"
+    "archive_path": "content/aset/2026-11-23-crude-oil-hormuz-india-risk/",
+    "docs_runner_evidence": {
+      "checked_at": "2026-11-23T08:24:29+05:30",
+      "repository": "artclass11/DOCS",
+      "runner_status": "UNVERIFIED",
+      "latest_marathi_workflow": {
+        "run_id": 45024410098,
+        "url": "https://github.com/artclass11/DOCS/actions/runs/45024410098",
+        "conclusion": "failure",
+        "jobs_returned": 0
+      },
+      "latest_package_quality": {
+        "run_id": 45024411315,
+        "url": "https://github.com/artclass11/DOCS/actions/runs/45024411315",
+        "conclusion": "failure",
+        "job_id": 137214153196,
+        "job_name": "validate",
+        "steps_returned": null
+      },
+      "interpretation": "Latest DOCS workflow attempts on 22 Nov did not allocate a production runner or execute production steps. No 23 Nov run was present in the latest run list. No host-level runner status endpoint or owner-host access is available to this task."
+    }
   },
   "previous_episode_evidence": {
     "id": "ASET-002",
