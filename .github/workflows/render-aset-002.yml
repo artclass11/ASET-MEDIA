@@ -25,7 +25,27 @@ jobs:
           pip install pillow gTTS
       - name: Render narration and video
         working-directory: content/aset/global-ai-boom-correction-marathi-002
-        run: python render.py
+        run: |
+          set -uo pipefail
+          for attempt in 1 2; do
+            echo "ASET render attempt ${attempt}/2"
+            if python render.py > "render-attempt-${attempt}.log" 2>&1; then
+              cat "render-attempt-${attempt}.log"
+              cp "render-attempt-${attempt}.log" render/render-attempt-${attempt}.log
+              exit 0
+            fi
+            status=$?
+            cat "render-attempt-${attempt}.log"
+            mkdir -p render
+            cp "render-attempt-${attempt}.log" render/render-attempt-${attempt}.log
+            if [ "${attempt}" -eq 1 ]; then
+              echo "Render failed; retrying once after a short delay."
+              sleep 15
+            else
+              echo "Render failed after bounded retry."
+              exit "${status:-1}"
+            fi
+          done
       - name: Verify deliverables
         working-directory: content/aset/global-ai-boom-correction-marathi-002/render
         run: |
