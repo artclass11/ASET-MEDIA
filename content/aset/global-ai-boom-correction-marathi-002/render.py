@@ -8,6 +8,8 @@ ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / "render"
 OUT.mkdir(exist_ok=True)
 W,H = 1920,1080
+# Keep the spoken pace natural while bringing the finished cut close to 10–12 minutes.
+AUDIO_ATEMPO = 1.15
 FONT_PATH = "/usr/share/fonts/truetype/noto/NotoSansDevanagari-Regular.ttf"
 BOLD_PATH = "/usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf"
 if not pathlib.Path(FONT_PATH).exists():
@@ -64,7 +66,8 @@ for i,ch in enumerate(chapters,1):
     run(["ffmpeg","-y","-f","concat","-safe","0","-i",str(concat_txt),"-c","copy",str(audio)])
     for p in pieces: p.unlink(missing_ok=True)
     audio_files.append(audio)
-    duration=float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","default=nw=1:nk=1",str(audio)],text=True).strip())
+    raw_duration=float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","default=nw=1:nk=1",str(audio)],text=True).strip())
+    duration=raw_duration/AUDIO_ATEMPO
     im=Image.new("RGB",(W,H),palette[(i-1)%len(palette)])
     d=ImageDraw.Draw(im)
     for x in range(0,W,120): d.line((x,0,x,H),fill=(26,37,46),width=1)
@@ -90,7 +93,7 @@ for i,ch in enumerate(chapters,1):
 audio_list=OUT/"audio_all.txt"
 audio_list.write_text("".join(f"file '{p.as_posix()}'\n" for p in audio_files),encoding="utf-8")
 full_audio=OUT/"narration_mr.mp3"
-run(["ffmpeg","-y","-f","concat","-safe","0","-i",str(audio_list),"-c","copy",str(full_audio)])
+run(["ffmpeg","-y","-f","concat","-safe","0","-i",str(audio_list),"-filter:a",f"atempo={AUDIO_ATEMPO}","-c:a","libmp3lame","-q:a","2",str(full_audio)])
 scene_list=OUT/"scenes.txt"
 scene_list.write_text("".join(f"file '{p.as_posix()}'\nduration {dur:.3f}\n" for p,dur in scene_files)+f"file '{scene_files[-1][0].as_posix()}'\n",encoding="utf-8")
 def stamp(t):
@@ -110,7 +113,7 @@ d.text((175,600),"AI बूम की आर्थिक फुगा?",font=fon
 im.save(thumb,quality=92)
 duration=float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","default=nw=1:nk=1",str(video)],text=True).strip())
 streams=subprocess.check_output(["ffprobe","-v","error","-show_entries","stream=codec_type,width,height","-of","json",str(video)],text=True)
-info={"duration_seconds":round(duration,2),"chapters":len(chapters),"video_bytes":video.stat().st_size,"audio_bytes":full_audio.stat().st_size,"streams":json.loads(streams),"narration":"Google gTTS Marathi (unofficial free endpoint)","thumbnail_bytes":thumb.stat().st_size}
+info={"duration_seconds":round(duration,2),"chapters":len(chapters),"video_bytes":video.stat().st_size,"audio_bytes":full_audio.stat().st_size,"streams":json.loads(streams),"narration":"Google gTTS Marathi (unofficial free endpoint), gently time-compressed","thumbnail_bytes":thumb.stat().st_size}
 (OUT/"render_report.json").write_text(json.dumps(info,ensure_ascii=False,indent=2),encoding="utf-8")
 if duration < 540 or duration > 720: raise SystemExit(f"Runtime outside 9-12 minute acceptance band: {duration:.1f}s")
 if video.stat().st_size < 5_000_000: raise SystemExit("Rendered video unexpectedly small")
