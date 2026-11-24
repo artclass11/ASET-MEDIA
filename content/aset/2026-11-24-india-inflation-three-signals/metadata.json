@@ -1,0 +1,34 @@
+{
+  "brand": "ASET",
+  "channel_display_name": "Aset",
+  "channel_id": "6af01ffc62b70b94b0baef5e",
+  "organization_name": "My organization",
+  "organization_id": "6aea10af273e0b47e1d3aaf1",
+  "language": "mr",
+  "title": "भारताची अर्थव्यवस्था: उत्पादन वाढतंय, पण महागाईही का?",
+  "short_title": "CPI 6.09%, WPI 12.29% — फरक काय?",
+  "categoryId": "27",
+  "privacy": "public",
+  "madeForKids": false,
+  "notifySubscribers": true,
+  "embeddable": true,
+  "ai_generated_or_altered_disclosure": "PENDING_FINAL_ASSET",
+  "isAiGenerated": null,
+  "description_file": "youtube_description.md",
+  "long_form": {
+    "aspect_ratio": "16:9",
+    "target_resolution": "1920x1080",
+    "target_duration_seconds": [360, 600],
+    "script": "script_mr_long.md",
+    "status": "HOLD_NOT_RENDERED"
+  },
+  "short": {
+    "aspect_ratio": "9:16",
+    "target_resolution": "1080x1920",
+    "target_duration_seconds": [45, 90],
+    "script": "script_mr_short.md",
+    "status": "HOLD_NOT_RENDERED"
+  },
+  "disclaimer": "Educational content only; not personalized investment advice.",
+  "metadata_status": "DRAFT_ONLY_NOT_FOR_BUFFER"
+}
