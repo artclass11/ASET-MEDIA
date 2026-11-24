@@ -28,4 +28,4 @@ Global listed equities and market structure across the US, India, Europe and Asi
 
 ## Current archive
 
-See [content-index.json](content-index.json) and [the production ledger](content/aset/production-ledger.json). The 23 November 2026 package is pre-production only: scripts and research are archived, while narration, rendering, technical QA and publishing remain on HOLD because the DOCS self-hosted production runner is not verified online and no final media exists.
+See [content-index.json](content-index.json) and [the production ledger](content/aset/production-ledger.json). The latest 24 November 2026 package compares India's CPI, WPI and eight-core-industry output. It contains separate Marathi Short and long-form scripts, primary-source research, motion-graphics data, visual plan, metadata, description, editable SVG thumbnail source and QA/rights manifests. Both formats remain pre-production HOLD: no licensed, auditioned Marathi voice or verified DOCS Blender runner was available, and no final MP4, SRT, raster thumbnail or final-media hash exists. The 23 November 2026 crude-oil/Hormuz package is also pre-production only.
