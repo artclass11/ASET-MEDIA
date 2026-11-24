@@ -1,0 +1,101 @@
+{
+  "data_cutoff": "2026-11-24T08:57:00+05:30",
+  "geography": "India",
+  "series": [
+    {
+      "id": "CPI",
+      "label_mr": "ग्राहक महागाई",
+      "period": "October 2026",
+      "status": "provisional",
+      "value_percent": 6.09,
+      "previous_period": "September 2026",
+      "previous_value_percent": 5.54,
+      "source_claim": "C1"
+    },
+    {
+      "id": "FOOD_CPI",
+      "label_mr": "खाद्य महागाई",
+      "period": "October 2026",
+      "status": "provisional",
+      "value_percent": 8.94,
+      "previous_period": "September 2026",
+      "previous_value_percent": 7.74,
+      "source_claim": "C1"
+    },
+    {
+      "id": "WPI",
+      "label_mr": "घाऊक महागाई",
+      "period": "October 2026",
+      "status": "provisional",
+      "value_percent": 12.29,
+      "previous_period": "September 2026",
+      "previous_value_percent": 11.39,
+      "source_claim": "C2"
+    },
+    {
+      "id": "WPI_FUEL_POWER",
+      "label_mr": "घाऊक इंधन व वीज",
+      "period": "October 2026",
+      "status": "provisional",
+      "value_percent": 32.84,
+      "previous_period": "September 2026",
+      "previous_value_percent": 25.85,
+      "source_claim": "C2"
+    },
+    {
+      "id": "WPI_FOOD",
+      "label_mr": "घाऊक अन्न निर्देशांक",
+      "period": "October 2026",
+      "status": "provisional",
+      "value_percent": 8.58,
+      "previous_period": "September 2026",
+      "previous_value_percent": 8.66,
+      "source_claim": "C2"
+    },
+    {
+      "id": "ICI",
+      "label_mr": "आठ प्रमुख उद्योग",
+      "period": "October 2026",
+      "status": "provisional",
+      "value_percent": 10.9,
+      "previous_period": "September 2026",
+      "previous_value_percent": 8.2,
+      "previous_period_status": "final",
+      "source_claim": "C3"
+    },
+    {
+      "id": "ICI_CUMULATIVE",
+      "label_mr": "एप्रिल–ऑक्टोबर संचयी वाढ",
+      "period": "April-October FY2026-27",
+      "status": "provisional",
+      "value_percent": 6.0,
+      "previous_period": "April-October FY2025-26",
+      "previous_value_percent": 2.3,
+      "source_claim": "C3"
+    }
+  ],
+  "sector_growth_october_2026_yoy_percent": [
+    {"sector": "Iron Ore", "value": 26.4},
+    {"sector": "Coal", "value": 23.1},
+    {"sector": "Electricity", "value": 21.6},
+    {"sector": "Cement", "value": 15.4},
+    {"sector": "Steel", "value": 7.3},
+    {"sector": "Refinery Products", "value": 3.4},
+    {"sector": "Natural Gas", "value": -7.6},
+    {"sector": "Crude Oil", "value": -4.1},
+    {"sector": "Fertilizers", "value": -12.2}
+  ],
+  "repo_rate": {
+    "decision_date": "2026-10-07",
+    "previous_percent": 5.25,
+    "current_percent": 5.5,
+    "stance": "calibrated tightening",
+    "next_scheduled_mpc": "2026-12-02 to 2026-12-04",
+    "source_claim": "C4"
+  },
+  "notes": [
+    "CPI, WPI and ICI are different measures and must not be presented as directly interchangeable.",
+    "October CPI, WPI and ICI values are provisional.",
+    "Do not present these indicators as company earnings, returns or forecasts."
+  ]
+}
