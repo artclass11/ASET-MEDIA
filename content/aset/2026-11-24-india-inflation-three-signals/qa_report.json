@@ -1,0 +1,50 @@
+{
+  "episode_id": "ASET-2026-11-24-001",
+  "checked_at": "2026-11-24T08:57:00+05:30",
+  "overall_score": null,
+  "dimension_scores": {
+    "research_integrity": null,
+    "narration": null,
+    "visual_storytelling": null,
+    "editing_and_sound": null,
+    "accessibility": null,
+    "metadata_and_disclosure": null,
+    "rights_and_provenance": null
+  },
+  "threshold": {
+    "overall_minimum": 85,
+    "dimension_minimum": 80,
+    "max_improve_retest_cycles": 3
+  },
+  "research_preflight": {
+    "status": "PARTIAL_PASS",
+    "evidence": "Primary MoSPI, Office of the Economic Adviser, RBI and NSE releases checked; independent WPI reporting corroborated. All figures retain their periods and provisional/final labels."
+  },
+  "script_preflight": {
+    "status": "DRAFTED_NOT_INDEPENDENTLY_APPROVED",
+    "evidence": "Separate long-form and Short scripts are archived. A second independent editorial model/reviewer was not available in this run."
+  },
+  "assets": {
+    "status": "BLOCKED",
+    "classification": "MISSING_ASSET",
+    "blockers": [
+      "No licensed, auditioned natural Marathi voice was runnable; no Bol TTS model cache was present.",
+      "No Blender or Kdenlive executable was present in the current local runtime.",
+      "No final moving scenes, audio, SRT, raster thumbnail or MP4 were created."
+    ]
+  },
+  "technical_qa": {
+    "status": "NOT_RUN_NO_FINAL_MEDIA",
+    "evidence": "FFmpeg 7.1.5 and ffprobe 7.1.5 are installed, but there is no final media file to probe or fully decode."
+  },
+  "fact_rights_qa": {
+    "status": "PARTIAL_HOLD",
+    "evidence": "Research facts were checked against primary-source documents. Final font-file checksum, voice/model rights, final visual provenance and AI disclosure cannot be approved without exact assets."
+  },
+  "creative_qa": {
+    "status": "NOT_RUN",
+    "evidence": "No rendered cut exists for independent visual/audio inspection. No score is assigned."
+  },
+  "release_decision": "HOLD",
+  "buffer_create": "NOT_ATTEMPTED"
+}
