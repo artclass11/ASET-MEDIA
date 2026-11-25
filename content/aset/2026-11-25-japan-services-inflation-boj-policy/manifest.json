@@ -1,0 +1,24 @@
+{
+  "episode_id": "ASET-2026-11-25-001",
+  "date": "2026-11-25",
+  "timezone": "Asia/Kolkata",
+  "slug": "japan-services-inflation-boj-policy",
+  "topic_fingerprint": "japan-services-producer-prices-42pct-october|boj-policy-transmission|fiscal-bond-market",
+  "formats": {
+    "short": {"target_seconds": "45-90", "aspect_ratio": "9:16", "resolution": "1080x1920", "status": "SCRIPTED_HOLD"},
+    "long": {"target_minutes": "6-10", "aspect_ratio": "16:9", "resolution": "1920x1080", "status": "SCRIPTED_HOLD"}
+  },
+  "assets": {
+    "script_mr.md": "original text",
+    "short_script_mr.md": "original text",
+    "research_sources.md": "source ledger",
+    "visual_plan.md": "original visual plan",
+    "youtube_package.md": "metadata and description draft"
+  },
+  "voice": {"status": "BLOCKED", "reason": "No verified runnable Marathi neural voice with commercial/platform rights evidence in this run."},
+  "visuals": {"status": "PLANNED_NOT_RENDERED", "policy": "Original graphics and procedural scenes only."},
+  "final_media": {"short_mp4": null, "long_mp4": null, "thumbnail": null, "srt": null, "sha256": null, "direct_download_url": null},
+  "release_decision": "HOLD",
+  "buffer_post_id": null,
+  "provider_status": "NOT_ATTEMPTED"
+}
