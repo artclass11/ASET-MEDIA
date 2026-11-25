@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T08:57:15+05:30",
+  "updated_at": "2026-11-25T08:25:17+05:30",
   "timezone": "Asia/Kolkata",
   "repository": "artclass11/ASET-MEDIA",
   "branch": "main",
@@ -64,11 +64,25 @@
       "archive_path": "content/aset/2026-11-24-india-inflation-three-signals/",
       "topic_fingerprint": "india-cpi-wpi-ici-three-measures|inflation-output-divergence|market-transmission",
       "duplicate_note": "Distinct from ASET-001/002 AI valuation/correction and the 23 November crude/Hormuz supply-risk story. Both formats are scripted but no final media exists."
+    },
+    {
+      "id": "ASET-2026-11-25-001",
+      "date": "2026-11-25",
+      "slug": "japan-services-inflation-boj-policy",
+      "topic": "Japan's October services producer-price inflation: what 4.2% means for BOJ policy, government borrowing and global investors",
+      "formats": [
+        "youtube_short_9_16",
+        "youtube_long_form_16_9"
+      ],
+      "status": "PREPRODUCTION_ONLY_HOLD",
+      "archive_path": "content/aset/2026-11-25-japan-services-inflation-boj-policy/",
+      "topic_fingerprint": "japan-services-producer-prices-42pct-october|boj-policy-transmission|fiscal-bond-market",
+      "duplicate_note": "Distinct from ASET AI valuation/correction, Hormuz oil/shipping and India CPI/WPI/core-output narratives in the recent archive. Both scripts only; no final media."
     }
   ],
   "duplicate_review": {
-    "buffer_window_start": "2026-10-25T00:00:00+05:30",
-    "buffer_window_end": "2026-11-24T08:57:15+05:30",
+    "buffer_window_start": "2026-10-26T00:00:00+05:30",
+    "buffer_window_end": "2026-11-25T08:25:17+05:30",
     "exact_channel_id": "6af01ffc62b70b94b0baef5e",
     "posts_reviewed": 10,
     "statuses": {
@@ -78,7 +92,7 @@
       "error": 0
     },
     "visible_titles": [],
-    "visible_content_summary": "Buffer list returned 10 sent YouTube posts. Five had blank text, one contained bulk-contact copy, and four contained gold-promotion copy. The latest visible asset URL was a YouTube Short from 22 November. No full transcript was available for blank-caption videos.",
-    "limitations": "Media-level semantic duplicate checking remains incomplete where Buffer exposes no caption or transcript. No new ASET video has been queued."
+    "visible_content_summary": "10 sent YouTube posts returned; several had blank text and others contained unrelated gold or bulk-contact copy. No scheduled/sending/error posts. Media-level duplicate checks limited where captions/transcripts are blank.",
+    "limitations": "No transcript retrieval for blank-caption legacy videos; new topic differs from archive fingerprints but full audiovisual duplicate scan unavailable."
   }
 }
