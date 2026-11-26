@@ -1,0 +1,116 @@
+{
+  "run_id": "ASET-2026-11-26-SECTION301-001",
+  "checked_at": "2026-11-26T08:17:05+05:30",
+  "topic": "US Section 301 determinations and proposed trade actions affecting 14 economies, including India; distinguish proposed duties from effective tariffs and map potential company earnings exposure.",
+  "topic_fingerprint": "us-section301-14-economies|india-proposed-duty-vs-effective-tariff|listed-company-export-supply-chain-exposure",
+  "formats": {
+    "short": {
+      "status": "HOLD_NOT_RENDERED",
+      "target": "55-70 sec, 9:16, 1080x1920",
+      "script": "content/aset/2026-11-26-us-section301-trade-risk/script_short_mr.md"
+    },
+    "long": {
+      "status": "HOLD_NOT_RENDERED",
+      "target": "6-10 min, 16:9, 1920x1080",
+      "script": "content/aset/2026-11-26-us-section301-trade-risk/script_long_mr.md"
+    }
+  },
+  "stages": [
+    {
+      "stage": "PREFLIGHT",
+      "status": "PASS_WITH_LIMITATIONS",
+      "evidence": "Re-read ASET README, production ledger and content index. Confirmed new dated folder absent before writing. Re-read Buffer account, exact organization and channel, plus 30-day posts. Exact Aset channel connected and unlocked."
+    },
+    {
+      "stage": "RESEARCH",
+      "status": "PASS_WITH_LIMITATIONS",
+      "evidence": "Selected USTR Section 301 action after comparing with overlapping AI selloff and less durable market rebound angles. USTR primary release dated 25 Nov 2026 reviewed; Reuters and AP 26 Nov market context. Important distinction: India up to 25% is a proposal net of existing Section 301 duties with exemptions; 17% is a conditional consideration if a qualifying agreement is reached. No claim that new duty is already in force."
+    },
+    {
+      "stage": "SCRIPT",
+      "status": "DRAFTED",
+      "evidence": "Separate Marathi Devanagari long-form and Short scripts created; disclaimer included. Long runtime is a target estimate, not measured."
+    },
+    {
+      "stage": "ASSETS",
+      "status": "BLOCKED",
+      "classification": "MISSING_ASSET",
+      "evidence": "No verified rights-cleared natural Marathi voice, licensed visual/audio assets, packaged font provenance or final animated graphics. Original visual plan created."
+    },
+    {
+      "stage": "RENDER",
+      "status": "BLOCKED",
+      "classification": "INFRA",
+      "evidence": "No confirmed online DOCS self-hosted production runner or verified local cinematic Blender lane. No final render claimed."
+    },
+    {
+      "stage": "TECH_QA",
+      "status": "NOT_RUN_NO_MEDIA",
+      "evidence": "No MP4, SRT or raster thumbnail; no full-file ffprobe/decode, audio, sync, caption or frozen-frame tests possible."
+    },
+    {
+      "stage": "FACT_RIGHTS_QA",
+      "status": "PARTIAL_HOLD",
+      "evidence": "Core legal status and India proposed rate taken from USTR primary release. Independent Reuters/AP reports used only for market context. Product-level tariff coverage, final Federal Register implementation, exemptions and company-level exposure not modelled. Final asset rights/disclosure not yet auditable."
+    },
+    {
+      "stage": "ARCHIVE",
+      "status": "ARCHIVED_PREPRODUCTION_ONLY",
+      "evidence": "Research brief, two distinct Marathi scripts, visual plan and metadata archived in dated folder."
+    },
+    {
+      "stage": "BUFFER_CREATE",
+      "status": "NOT_ATTEMPTED",
+      "evidence": "No final validated MP4, SHA-256 or stable direct public downloadable URL."
+    },
+    {
+      "stage": "PROVIDER_VERIFY",
+      "status": "NOT_APPLICABLE",
+      "evidence": "No Buffer post created."
+    },
+    {
+      "stage": "REPORT",
+      "status": "COMPLETE",
+      "evidence": "HOLD reported; no other brand, channel or legacy publisher changed."
+    }
+  ],
+  "buffer": {
+    "organization": "My organization",
+    "organization_id": "6aea10af273e0b47e1d3aaf1",
+    "channel_name": "Aset",
+    "channel_id": "6af01ffc62b70b94b0baef5e",
+    "service": "youtube",
+    "connected": true,
+    "locked": false,
+    "posts_last_30_days": {
+      "sent": 10,
+      "scheduled": 0,
+      "sending": 0,
+      "error": 0
+    },
+    "posts_created_this_run": 0
+  },
+  "blockers": [
+    "No verified runnable natural Marathi neural voice with commercial/platform rights evidence.",
+    "No confirmed online DOCS production runner for this dated episode.",
+    "No final MP4, SRT, raster thumbnail, final SHA-256, technical/creative QA score or stable direct public download URL."
+  ],
+  "release_decision": "HOLD",
+  "final_media": {
+    "short_mp4": null,
+    "long_mp4": null,
+    "thumbnail": null,
+    "captions_srt": null,
+    "sha256": null,
+    "stable_public_download_url": null
+  },
+  "buffer_post_id": null,
+  "provider_status": "NOT_ATTEMPTED",
+  "archive_path": "content/aset/2026-11-26-us-section301-trade-risk/",
+  "research_sources": [
+    "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+    "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/",
+    "https://apnews.com/article/10044b4fb55d3ff20fde9ba9e9acaab1",
+    "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
+  ]
+}
