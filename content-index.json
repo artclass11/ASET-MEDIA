@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-25T08:25:17+05:30",
+  "updated_at": "2026-11-26T08:17:05+05:30",
   "timezone": "Asia/Kolkata",
   "repository": "artclass11/ASET-MEDIA",
   "branch": "main",
@@ -78,11 +78,25 @@
       "archive_path": "content/aset/2026-11-25-japan-services-inflation-boj-policy/",
       "topic_fingerprint": "japan-services-producer-prices-42pct-october|boj-policy-transmission|fiscal-bond-market",
       "duplicate_note": "Distinct from ASET AI valuation/correction, Hormuz oil/shipping and India CPI/WPI/core-output narratives in the recent archive. Both scripts only; no final media."
+    },
+    {
+      "id": "ASET-2026-11-26-001",
+      "date": "2026-11-26",
+      "slug": "us-section301-trade-risk",
+      "topic": "US Section 301 determinations and proposed trade actions affecting 14 economies, including India; proposal vs effective duty and company earnings exposure",
+      "formats": [
+        "youtube_short_9_16",
+        "youtube_long_form_16_9"
+      ],
+      "status": "PREPRODUCTION_ONLY_HOLD",
+      "archive_path": "content/aset/2026-11-26-us-section301-trade-risk/",
+      "topic_fingerprint": "us-section301-14-economies|india-proposed-duty-vs-effective-tariff|listed-company-export-supply-chain-exposure",
+      "duplicate_note": "Distinct from recent ASET AI valuation/correction, Hormuz supply-risk, India CPI/WPI/core-output and Japan services-inflation narratives. Short and long scripts only; no final media."
     }
   ],
   "duplicate_review": {
-    "buffer_window_start": "2026-10-26T00:00:00+05:30",
-    "buffer_window_end": "2026-11-25T08:25:17+05:30",
+    "buffer_window_start": "2026-10-27T00:00:00+05:30",
+    "buffer_window_end": "2026-11-26T08:17:05+05:30",
     "exact_channel_id": "6af01ffc62b70b94b0baef5e",
     "posts_reviewed": 10,
     "statuses": {
@@ -92,7 +106,7 @@
       "error": 0
     },
     "visible_titles": [],
-    "visible_content_summary": "10 sent YouTube posts returned; several had blank text and others contained unrelated gold or bulk-contact copy. No scheduled/sending/error posts. Media-level duplicate checks limited where captions/transcripts are blank.",
-    "limitations": "No transcript retrieval for blank-caption legacy videos; new topic differs from archive fingerprints but full audiovisual duplicate scan unavailable."
+    "visible_content_summary": "Ten sent posts returned for the exact Aset YouTube channel; no scheduled, sending or error posts. Several legacy posts have blank captions, limiting audiovisual duplicate checks.",
+    "limitations": "No transcript retrieval for blank-caption legacy videos; current topic fingerprint differs from recent archived themes."
   }
 }
