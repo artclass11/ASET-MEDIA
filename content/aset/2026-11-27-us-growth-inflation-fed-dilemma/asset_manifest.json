@@ -1,0 +1,8 @@
+{
+  "date":"2026-11-27",
+  "visuals":{"status":"not_rendered","plan":"Original animated GDP bars, PCE headline/core line chart, Fed policy range timeline, animated transmission from yields to FX and corporate financing.","rights":"Procedural graphics from cited source data; no external footage."},
+  "audio":{"status":"blocked","voice":"No verified runnable rights-cleared natural Marathi neural voice available.","music":"No music sourced or used."},
+  "fonts":{"status":"not_selected","requirement":"Verify font licence and Devanagari shaping before render."},
+  "models":[],
+  "final_media":{"short_mp4":null,"long_mp4":null,"thumbnail_png":null,"captions_srt":null,"sha256":null,"stable_direct_download_url":null}
+}
