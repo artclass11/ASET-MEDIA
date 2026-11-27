@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T08:17:05+05:30",
+  "updated_at": "2026-11-27T08:10:38+05:30",
   "timezone": "Asia/Kolkata",
   "repository": "artclass11/ASET-MEDIA",
   "branch": "main",
@@ -92,6 +92,20 @@
       "archive_path": "content/aset/2026-11-26-us-section301-trade-risk/",
       "topic_fingerprint": "us-section301-14-economies|india-proposed-duty-vs-effective-tariff|listed-company-export-supply-chain-exposure",
       "duplicate_note": "Distinct from recent ASET AI valuation/correction, Hormuz supply-risk, India CPI/WPI/core-output and Japan services-inflation narratives. Short and long scripts only; no final media."
+    },
+    {
+      "id": "ASET-2026-11-27-001",
+      "date": "2026-11-27",
+      "slug": "us-growth-inflation-fed-dilemma",
+      "topic": "US Q3 2026 GDP growth and October PCE inflation: strong activity versus sticky prices and Federal Reserve policy dilemma",
+      "formats": [
+        "youtube_short_9_16",
+        "youtube_long_form_16_9"
+      ],
+      "status": "PREPRODUCTION_ONLY_HOLD",
+      "archive_path": "content/aset/2026-11-27-us-growth-inflation-fed-dilemma/",
+      "topic_fingerprint": "us-q3-2026-gdp-43pct|october-pce-38pct-core-33pct|fed-policy-growth-inflation-tradeoff",
+      "duplicate_note": "Distinct from recent AI valuation, Hormuz supply, India inflation, Japan services inflation and US trade-action narratives. Separate scripts only; no final media."
     }
   ],
   "duplicate_review": {
