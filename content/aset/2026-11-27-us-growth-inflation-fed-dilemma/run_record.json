@@ -1,0 +1,21 @@
+{
+  "run_id":"ASET-2026-11-27-US-GDP-PCE-001",
+  "checked_at":"2026-11-27T08:10:38+05:30",
+  "topic_fingerprint":"us-q3-2026-gdp-43pct|october-pce-38pct-core-33pct|fed-policy-growth-inflation-tradeoff",
+  "stages":[
+    {"stage":"PREFLIGHT","status":"PASS_WITH_LIMITATIONS","evidence":"Read README, production ledger and content index; verified today's dated folder absent; re-read Buffer account, exact channel and last-30-day posts."},
+    {"stage":"RESEARCH","status":"PASS","evidence":"Compared US GDP/PCE, Asia AI volatility and BOJ tokenisation risk. Selected official BEA GDP/PCE releases and Fed minutes; Reuters corroboration. Avoided recent AI selloff duplicate."},
+    {"stage":"SCRIPT","status":"CREATED","evidence":"Distinct Marathi long-form and Short scripts archived; target durations are estimates, not measured."},
+    {"stage":"ASSETS","status":"BLOCKED","classification":"MISSING_ASSET","evidence":"No verified rights-cleared runnable Marathi neural voice or final visual/audio assets."},
+    {"stage":"RENDER","status":"BLOCKED","classification":"INFRA","evidence":"No confirmed online DOCS self-hosted production runner; no render claimed."},
+    {"stage":"TECH_QA","status":"NOT_RUN_NO_MEDIA","evidence":"No MP4/SRT/raster thumbnail; full-file decode and technical checks impossible."},
+    {"stage":"FACT_RIGHTS_QA","status":"PARTIAL_SCRIPT_REVIEW","evidence":"Primary BEA and Fed claims mapped; independent Reuters corroboration. Final visual/voice rights and final media disclosures remain unauditable."},
+    {"stage":"ARCHIVE","status":"ARCHIVED_PREPRODUCTION_ONLY","evidence":"Dated folder contains separate scripts, research brief, metadata, asset manifest, QA report and run record."},
+    {"stage":"BUFFER_CREATE","status":"NOT_ATTEMPTED","evidence":"No validated final MP4, SHA-256 or stable direct public download URL."},
+    {"stage":"PROVIDER_VERIFY","status":"NOT_APPLICABLE","evidence":"No post created."},
+    {"stage":"REPORT","status":"COMPLETE","evidence":"Both formats HOLD; no other brand/channel/legacy publisher changed."}
+  ],
+  "buffer":{"organization":"My organization","organization_id":"6aea10af273e0b47e1d3aaf1","channel":"Aset","channel_id":"6af01ffc62b70b94b0baef5e","service":"youtube","connected":true,"locked":false,"posts_last_30_days":{"sent":10,"scheduled":0,"sending":0,"error":0},"posts_created":0},
+  "formats":{"short":"HOLD_NOT_RENDERED","long":"HOLD_NOT_RENDERED"},
+  "release_decision":"HOLD","buffer_post_id":null,"provider_status":"NOT_ATTEMPTED"
+}
