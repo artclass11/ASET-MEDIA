@@ -2,6 +2,141 @@
   "schema_version": 1,
   "timezone": "Asia/Kolkata",
   "latest_run": {
+    "run_id": "ASET-2026-11-27-US-GDP-PCE-001",
+    "checked_at": "2026-11-27T08:10:38+05:30",
+    "topic": "US Q3 2026 GDP growth and October PCE inflation: strong activity versus sticky prices and Federal Reserve policy dilemma",
+    "topic_fingerprint": "us-q3-2026-gdp-43pct|october-pce-38pct-core-33pct|fed-policy-growth-inflation-tradeoff",
+    "formats": {
+      "short": {
+        "status": "HOLD_NOT_RENDERED",
+        "script": "content/aset/2026-11-27-us-growth-inflation-fed-dilemma/script_short_mr.md"
+      },
+      "long": {
+        "status": "HOLD_NOT_RENDERED",
+        "script": "content/aset/2026-11-27-us-growth-inflation-fed-dilemma/script_long_mr.md"
+      }
+    },
+    "stages": [
+      {
+        "stage": "PREFLIGHT",
+        "status": "PASS",
+        "evidence": "Read README, ledger and index; checked dated folder absent; re-read Buffer account, exact channel and 30-day post states."
+      },
+      {
+        "stage": "RESEARCH",
+        "status": "PASS",
+        "evidence": "Compared US GDP/PCE, Asia AI volatility and BOJ tokenisation. Selected BEA GDP/PCE and Fed minutes, corroborated by Reuters. AI volatility excluded due recent narrative overlap."
+      },
+      {
+        "stage": "SCRIPT",
+        "status": "CREATED",
+        "evidence": "Separate Marathi long-form and Short scripts archived; runtimes are targets, not measured."
+      },
+      {
+        "stage": "ASSETS",
+        "status": "BLOCKED",
+        "classification": "MISSING_ASSET",
+        "evidence": "No verified runnable, rights-cleared natural Marathi neural voice or final visual/audio assets."
+      },
+      {
+        "stage": "RENDER",
+        "status": "BLOCKED",
+        "classification": "INFRA",
+        "evidence": "No confirmed online DOCS production runner; no render claimed."
+      },
+      {
+        "stage": "TECH_QA",
+        "status": "NOT_RUN_NO_MEDIA",
+        "evidence": "No MP4/SRT/raster thumbnail; no full-file decode or technical checks possible."
+      },
+      {
+        "stage": "FACT_RIGHTS_QA",
+        "status": "PARTIAL_SCRIPT_REVIEW",
+        "evidence": "BEA and Fed claims mapped to primary releases and Reuters corroboration; final media rights and disclosure not auditable."
+      },
+      {
+        "stage": "ARCHIVE",
+        "status": "ARCHIVED_PREPRODUCTION_ONLY",
+        "evidence": "Dated package contains README, two scripts, research brief, metadata, asset manifest, QA report and run record."
+      },
+      {
+        "stage": "BUFFER_CREATE",
+        "status": "NOT_ATTEMPTED",
+        "evidence": "No validated final MP4, exact SHA-256 or stable direct public download URL."
+      },
+      {
+        "stage": "PROVIDER_VERIFY",
+        "status": "NOT_APPLICABLE",
+        "evidence": "No post created."
+      },
+      {
+        "stage": "REPORT",
+        "status": "COMPLETE",
+        "evidence": "Both formats HOLD; no other brand/channel/legacy publisher changed."
+      }
+    ],
+    "buffer": {
+      "organization": "My organization",
+      "organization_id": "6aea10af273e0b47e1d3aaf1",
+      "channel_name": "Aset",
+      "channel_id": "6af01ffc62b70b94b0baef5e",
+      "service": "youtube",
+      "connected": true,
+      "locked": false,
+      "posts_last_30_days": {
+        "sent": 10,
+        "scheduled": 0,
+        "sending": 0,
+        "error": 0
+      },
+      "posts_created_this_run": 0
+    },
+    "blockers": [
+      "No verified rights-cleared runnable natural Marathi neural voice.",
+      "No confirmed online DOCS production runner.",
+      "No final MP4, SRT, raster thumbnail, final SHA-256, technical/creative QA score or stable direct public URL."
+    ],
+    "release_decision": "HOLD",
+    "final_media": {
+      "short_mp4": null,
+      "long_mp4": null,
+      "thumbnail": null,
+      "captions_srt": null,
+      "sha256": null,
+      "stable_public_download_url": null
+    },
+    "buffer_post_id": null,
+    "provider_status": "NOT_ATTEMPTED",
+    "archive_path": "content/aset/2026-11-27-us-growth-inflation-fed-dilemma/",
+    "research_sources": [
+      "https://www.bea.gov/sites/default/files/2026-11/gdp3q26-2nd.pdf",
+      "https://bea.gov/sites/default/files/2026-11/pi1026.pdf",
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "https://www.reuters.com/business/finance/us-third-quarter-gdp-growth-revised-sharply-higher-2026-11-25/"
+    ]
+  },
+  "previous_episode_evidence": {
+    "id": "ASET-002",
+    "workflow_run_id": 45097889200,
+    "workflow_run_url": "https://github.com/artclass11/ASET-MEDIA/actions/runs/45097889200",
+    "release_url": "https://github.com/artclass11/ASET-MEDIA/releases/tag/aset-002-run-10",
+    "mp4_sha256": "1d7f000ac4935d67c6a64b0b010818ceda9e5a1041e85d01977e58589e5052e9",
+    "mp4_bytes": 12066865,
+    "duration_seconds": 706.36,
+    "resolution": "1920x1080",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "narration": "Google gTTS Marathi (unofficial free endpoint), gently time-compressed",
+    "technical_gate": "PASS_NARROW",
+    "subtitle_blocks": 26,
+    "ffmpeg_encoder_duplicate_frames": 19270,
+    "ffmpeg_duplicate_warning": "More than 10000 frames duplicated",
+    "full_file_decode": "NOT_RUN",
+    "audio_mix_and_transcript_qa": "NOT_RUN",
+    "creative_gate": "HOLD",
+    "release_reason": "Duration exceeds 600-second target; basic chapter-card treatment; duplicate-frame warning; unofficial gTTS endpoint and voice rights not verified; no independent visual/audio review or exact-hash machine approval."
+  },
+  "previous_run": {
     "run_id": "ASET-2026-11-26-SECTION301-001",
     "checked_at": "2026-11-26T08:17:05+05:30",
     "topic": "US Section 301 determinations and proposed trade actions affecting 14 economies, including India; distinguish proposed duties from effective tariffs and map potential company earnings exposure.",
@@ -117,146 +252,5 @@
       "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/march/ustr-initiates-section-301-investigations-relating-structural-excess-capacity-and-production"
     ]
   },
-  "previous_episode_evidence": {
-    "id": "ASET-002",
-    "workflow_run_id": 45097889200,
-    "workflow_run_url": "https://github.com/artclass11/ASET-MEDIA/actions/runs/45097889200",
-    "release_url": "https://github.com/artclass11/ASET-MEDIA/releases/tag/aset-002-run-10",
-    "mp4_sha256": "1d7f000ac4935d67c6a64b0b010818ceda9e5a1041e85d01977e58589e5052e9",
-    "mp4_bytes": 12066865,
-    "duration_seconds": 706.36,
-    "resolution": "1920x1080",
-    "video_codec": "h264",
-    "audio_codec": "aac",
-    "narration": "Google gTTS Marathi (unofficial free endpoint), gently time-compressed",
-    "technical_gate": "PASS_NARROW",
-    "subtitle_blocks": 26,
-    "ffmpeg_encoder_duplicate_frames": 19270,
-    "ffmpeg_duplicate_warning": "More than 10000 frames duplicated",
-    "full_file_decode": "NOT_RUN",
-    "audio_mix_and_transcript_qa": "NOT_RUN",
-    "creative_gate": "HOLD",
-    "release_reason": "Duration exceeds 600-second target; basic chapter-card treatment; duplicate-frame warning; unofficial gTTS endpoint and voice rights not verified; no independent visual/audio review or exact-hash machine approval."
-  },
-  "previous_run": {
-    "run_id": "ASET-2026-11-25-JAPAN-SPPI-001",
-    "checked_at": "2026-11-25T08:25:17+05:30",
-    "topic": "Japan's October services producer-price inflation and the Bank of Japan policy/fiscal transmission channel",
-    "topic_fingerprint": "japan-services-producer-prices-42pct-october|boj-policy-transmission|fiscal-bond-market",
-    "formats": {
-      "short": {
-        "target": "45–90 sec, 9:16, 1080x1920",
-        "status": "HOLD_NOT_RENDERED",
-        "reason": "Script archived; no verified licensed natural Marathi voice or independently scored rendered Short."
-      },
-      "long": {
-        "target": "6–10 min, 16:9, 1920x1080",
-        "status": "HOLD_NOT_RENDERED",
-        "reason": "Script archived; no verified DOCS production runner or licensed natural Marathi narration available."
-      }
-    },
-    "stages": [
-      {
-        "stage": "PREFLIGHT",
-        "status": "PARTIAL_PASS",
-        "evidence": "Read ASET README, production ledger and content index before selecting topic. Confirmed dated folder absent before creation. Re-read Buffer account, organization and exact Aset channel. Channel connected and unlocked. Retrieved 10 posts from 30-day window: 10 sent, none scheduled/sending/error."
-      },
-      {
-        "stage": "RESEARCH",
-        "status": "PASS_WITH_LIMITATIONS",
-        "evidence": "Compared Japan services-price/fiscal-policy angle, Japan consumer spending, India/FX flows and renewed AI equity volatility. Selected Japan SPPI because fresh BOJ release and Reuters corroboration; avoided recent ASET AI, Hormuz and India CPI/WPI narratives. BOJ release list confirms October 2026 data released 25 Nov; Reuters reports 4.2% y/y, September revised 3.8%, freight/leasing/hotels drivers."
-      },
-      {
-        "stage": "SCRIPT",
-        "status": "DRAFTED",
-        "evidence": "Separate Marathi long-form script and 55–70 second Short script archived; long-form runtime is an estimate pending recorded narration. Financial education disclaimer included."
-      },
-      {
-        "stage": "ASSETS",
-        "status": "BLOCKED",
-        "classification": "MISSING_ASSET",
-        "evidence": "No licensed, natural Marathi voice/model runnable with commercial/platform rights evidence. Visual plan uses original procedural scenes and diagrams; none rendered."
-      },
-      {
-        "stage": "RENDER",
-        "status": "BLOCKED",
-        "classification": "INFRA",
-        "evidence": "DOCS README confirms autonomous factory activation incomplete: self-hosted Linux x64 runner, local model and SearXNG setup still required. DOCS Marathi workflow is manual workflow_dispatch and hard-coded for its own AI episode, so not applicable to this Japan story. No confirmed online docs-production runner; no render attempted."
-      },
-      {
-        "stage": "TECH_QA",
-        "status": "NOT_RUN_NO_MEDIA",
-        "evidence": "No MP4/audio/SRT/raster thumbnail. No ffprobe/full decode/audio/caption/sync/frozen-frame tests can run."
-      },
-      {
-        "stage": "FACT_RIGHTS_QA",
-        "status": "PARTIAL_HOLD",
-        "evidence": "Core SPPI value and context corroborated with BOJ release index and Reuters. The exact BOJ October PDF data table was not inspected in this run; 4.2% figure attributed to Reuters. Voice, rendered visuals, font/audio provenance and synthetic-content disclosure remain uncleared."
-      },
-      {
-        "stage": "ARCHIVE",
-        "status": "ARCHIVED_PREPRODUCTION_ONLY",
-        "evidence": "Dated package contains two distinct scripts, research source/claim brief, visual/motion plan, YouTube metadata/description draft, manifest and QA report."
-      },
-      {
-        "stage": "BUFFER_CREATE",
-        "status": "NOT_ATTEMPTED",
-        "evidence": "No final validated MP4, SHA-256 or stable direct public downloadable URL."
-      },
-      {
-        "stage": "PROVIDER_VERIFY",
-        "status": "NOT_APPLICABLE",
-        "evidence": "No post ID created."
-      },
-      {
-        "stage": "REPORT",
-        "status": "COMPLETE",
-        "evidence": "No publishing claim made; no other brand/channel or legacy workflow touched."
-      }
-    ],
-    "buffer": {
-      "organization": "My organization",
-      "organization_id": "6aea10af273e0b47e1d3aaf1",
-      "channel_name": "Aset",
-      "channel_id": "6af01ffc62b70b94b0baef5e",
-      "service": "youtube",
-      "connected": true,
-      "locked": false,
-      "posts_last_30_days": {
-        "sent": 10,
-        "scheduled": 0,
-        "sending": 0,
-        "error": 0
-      },
-      "posts_created_this_run": 0
-    },
-    "blockers": [
-      "No verified runnable, rights-cleared natural Marathi neural voice.",
-      "No confirmed online DOCS production runner; repository states local factory activation incomplete.",
-      "No final MP4, SRT, raster thumbnail, exact-file SHA-256, technical/creative QA score or stable direct public download URL."
-    ],
-    "release_decision": "HOLD",
-    "final_media": {
-      "short_mp4": null,
-      "long_mp4": null,
-      "thumbnail": null,
-      "captions_srt": null,
-      "sha256": null,
-      "stable_public_download_url": null
-    },
-    "buffer_post_id": null,
-    "provider_status": "NOT_ATTEMPTED",
-    "archive_path": "content/aset/2026-11-25-japan-services-inflation-boj-policy/",
-    "archive_content_commit_shas": [
-      "bd73fcb70fed7ba6d4794eec16a0a81070d1b935",
-      "60a24b51d1a69ab0da99f5e5fa9f2f7eb919a1a8",
-      "1252ae246dac6617c7d20b9d0dfd9327ca2191f5",
-      "f37aa0743fb0a7db8b53ff5508f7796534d938d2",
-      "c4a761e30156f152b9b0e3d0f8bfc98bf9bcb5bb",
-      "1f88b247fec4e07dd80994046f74afb5aad4322c",
-      "9d07711cd3ccc772fab7ab6f287e23a0e61b622a",
-      "92eab5ef2e8cc819fd89acec0f2e2a1c5a904b94"
-    ]
-  },
-  "updated_at": "2026-11-26T08:17:05+05:30"
+  "updated_at": "2026-11-27T08:10:38+05:30"
 }
